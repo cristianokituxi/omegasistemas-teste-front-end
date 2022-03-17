@@ -37,33 +37,33 @@
      }
      @keyframes slide {
          0%{
-            background-image: url("../image/img1.jpeg")
+            background-image: url("../image/img2.jpg");
          }
          20%{
-           background-image: url("../image/img1.jpeg");  
+           background-image: url("../image/img2.jpg");  
          }
          20.1%{
-            background-image: url("../image/img2.jpeg")
+            background-image: url("../image/img1.jpg");
         }
         40%{
-            background-image: url("../image/img2.jpeg")
+            background-image: url("../image/img1.jpg");
         }
         40.1%{
-            background-image: url("../image/img3.jpeg")
+            background-image: url("../image/img6.jpg");
         }
         60%{
-            background-image: url("../image/img3.jpeg")
+            background-image: url("../image/img6.jpg");
         }
         60.1%{
-            background-image: url("../image/img4.jpeg")
+            background-image: url("../image/img7.jpg");
         }
         80%{
-            background-image: url("../image/img4.jpeg")
+            background-image: url("../image/img7.jpg");
         }
         80.1%{
-            background-image: url("../image/img5.jpeg")
+            background-image: url("../image/img8.jpg");
         }
         100%{
-            background-image: url("../image/img5.jpeg")
+            background-image: url("../image/img8.jpg");
         }
      }
