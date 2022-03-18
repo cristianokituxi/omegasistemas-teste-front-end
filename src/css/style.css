@@ -56,7 +56,7 @@
         }
       }
       
-     .principal{
+     .main{
          left: 50%;
          top: 50%;
          transform: translate(-50%, -50%);
@@ -64,13 +64,8 @@
          letter-spacing: 5px;
         text-align: center;
      }
-     .principal h1{
+     .main h1{
          font-size: 50px;
-     }
-     .entrada{
-        width: 100%;
-        height: 100;
-    
      }
 
 
