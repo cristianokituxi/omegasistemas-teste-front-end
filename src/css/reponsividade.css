@@ -1,0 +1,54 @@
+
+  @media screen and (min-width: 320px) {
+.slide{
+    background-size: 100%;
+}
+.retursearch{
+    font-size: 15px;
+    width: 100%;
+    display: block;
+    margin: 2px;
+    border-top: 1px solid;
+}
+.principal h1{
+    font-size: 20px;
+}
+.search{
+    padding: 2px;
+    margin:2px
+}
+button{
+    padding: 5px;
+    margin:5px ; 
+    font-size: 15px;      
+}
+  }
+
+  @media screen and (min-width: 768px) {
+      .retursearch{
+          display: flex;
+          padding: 8px;
+          font-size:15px;
+          border-top: 1px solid;
+      }
+      .search{
+        padding: 8px;
+        margin: 10px;
+    }
+    button{
+        padding: 8px;
+        margin:10px ; 
+        font-size: 15px;      
+    }
+
+  }
+
+  @media screen and (min-width: 1024px) {
+
+  }
+
+  @media screen and (min-width: 1280px) {
+
+
+
+  }
