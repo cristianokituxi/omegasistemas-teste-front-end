@@ -12,7 +12,7 @@
      background-position: center;
      width: 100%;
      height: 100vh;
-     animation: slide 5s infinite;
+     animation: slide 15s infinite;
     }
      .content{
          color: #fff;
@@ -29,12 +29,40 @@
         text-align: center;
      }
      .principal h1{
-         font-size: 70px;
-         margin-bottom: 20px;
+         font-size: 50px;
      }
-     .principal p{
-         font-size: 20px;
+     .entrada{
+        width: 100%;
+        height: 100%;
+    
      }
+     .search{
+              background-color: transparent;
+              border-color: #4CAF50;
+              color: white;
+              padding: 20px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+              border-radius: 1cm;
+          }
+          button{
+         
+                background-color: #4CAF50; /* Green */
+                border: none;
+                color: white;
+                padding: 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 1cm;
+              }
      @keyframes slide {
          0%{
             background-image: url("../image/img2.jpg");

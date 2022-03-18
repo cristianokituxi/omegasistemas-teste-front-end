@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/style.css">
-    <title>Document</title>
+    <title>consultor de casos de covid</title>
 </head>
+
 <body>
     <div class="slider">
         <div class="load">
         </div>
-            <div class="content">
-                <div class="pincipal">
-                    
+        <div class="content">
+            <div class="principal">
+                <div>
+                    <h1>Faça sua consulta</h1>
                 </div>
-
-            
+                   <div class="entrada">
+                    <input type="text" placeholder="digite o estado" class="search" id="inputConsult">
+                    <button onclick="endereco()">cunsultar</button>
+                </div>
+                <div id="resultado">
+                </div>
+            </div>
+           <script src="./src/js/main.js"></script>
         </div>
-    </div>
 </body>
+
 </html>
