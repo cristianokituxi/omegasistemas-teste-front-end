@@ -1,3 +1,68 @@
+@media screen and (max-width: 10280px) {
+    .retursearch{
+        color: white;
+        width: 100%;
+        height: 100%;
+        background-color: #2ecc71;
+        font-family: 'Signika Negative', sans-serif;
+        border-radius: 0.1cm 0.1cm 0cm 0cm;
+        border-bottom:  solid 1px;
+        padding: 8px;
+        display: flex;
+        border-collapse: collapse;
+        font-size:20px;
+        border-color: white;
+        animation-duration: 3s;
+        animation-name: slidein;
+        
+        
+        
+        
+        }
+        
+        @media screen and (min-width: 1204px) {
+        .retursearch{
+          color: white;
+          width: 100%;
+          height: 100%;
+          background-color: #2ecc71;
+          font-family: 'Signika Negative', sans-serif;
+          border-radius: 0.1cm 0.1cm 0cm 0cm;
+          border-bottom:  solid 1px;
+          padding: 8px;
+          display: flex;
+          border-collapse: collapse;
+          font-size:20px;
+          border-color: white;
+          animation-duration: 3s;
+          animation-name: slidein;
+          
+        
+        }
+        
+        
+        
+        }
+      }
+@media screen and (max-width: 768px) {
+    .retursearch{
+        display: block;
+        padding: 8px;
+        font-size:20px;
+        border-top: 1px solid;
+    }
+    .search{
+      padding: 8px;
+      margin: 10px;
+  }
+  button{
+      padding: 8px;
+      margin:10px ; 
+      font-size: 15px;      
+  }
+
+}
+
 
   @media screen and (max-width: 320px) {
 .slide{
@@ -24,34 +89,4 @@ button{
 }
   }
 
-  @media screen and (max-width: 768px) {
-      .retursearch{
-          display: flex;
-          padding: 8px;
-          font-size:15px;
-          border-top: 1px solid;
-      }
-      .search{
-        padding: 8px;
-        margin: 10px;
-    }
-    button{
-        padding: 8px;
-        margin:10px ; 
-        font-size: 15px;      
-    }
-    .principal h1{
-        font-size: 30px;
-    }
-
-  }
-
-  @media screen and (max-width: 1024px) {
-
-  }
-
-  @media screen and (max-width: 1280px) {
-
-
-
-  }
+  
