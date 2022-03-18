@@ -22,18 +22,20 @@ function endereco() {
 function mostraEndereco(dados) {
     let resultado = document.querySelector('#resultado')
     if (dados.erro) {
-        resultado.innerHTML = "nao da porra"
+        resultado.innerHTML = "estado federativo não existente"
     }
     else {
 
-        resultado.innerHTML = ` <P>Estado:${dados.state}.</P>
-                                  <P>Casos:${dados.cases}.</P>
-                                    <P>Data:${dados.datetime}.<p/>
-                                      <P>Mortes:${dados.deaths}.</P>
-                                        <P>Recusas:${dados.refuses}.<p/>
-                                           <P>Suspeitas:${dados.suspects}.</P>
-                                                <P>Uf:${dados.uf}.</P>
-                                                  <P>Id:${dados.uid}.</P> `
+        resultado.innerHTML = ` <P class="retursearch">Estado:${dados.state}.</P>
+                                <P class="retursearch">Uf:${dados.uf}.</P>
+                                <P class="retursearch">Id:${dados.uid}.</P>
+                                  <P class="retursearch">Casos:${dados.cases}.</P>
+                                    <P class="retursearch">Data:${dados.datetime}.<p/>
+                                      <P class="retursearch">Mortes:${dados.deaths}.</P>
+                                        <P class="retursearch">Recusas:${dados.refuses}.<p/>
+                                           <P class="retursearch">Suspeitas:${dados.suspects}.</P>`
+                                               
+                                                  
     }
 
 
