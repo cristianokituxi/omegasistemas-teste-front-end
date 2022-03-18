@@ -1,5 +1,5 @@
 
-  @media screen and (min-width: 320px) {
+  @media screen and (max-width: 320px) {
 .slide{
     background-size: 100%;
 }
@@ -24,7 +24,7 @@ button{
 }
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 768px) {
       .retursearch{
           display: flex;
           padding: 8px;
@@ -40,14 +40,17 @@ button{
         margin:10px ; 
         font-size: 15px;      
     }
+    .principal h1{
+        font-size: 30px;
+    }
 
   }
 
-  @media screen and (min-width: 1024px) {
+  @media screen and (max-width: 1024px) {
 
   }
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (max-width: 1280px) {
 
 
 
